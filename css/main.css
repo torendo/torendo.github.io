@@ -22,24 +22,37 @@
         flex-grow: 1;
     }
 }
+h1, h2, h3, h4, h5,
+.nav-title, .card-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 .btn-floating {
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: 500;
+    cursor: default;
 }
 nav .nav-title {
-    padding: 24px 0 0 0;
-    font-weight: 500;
+    padding: 26px 0 0 0;
+    font-size: 3.5em;
 }
 nav .contacts li {
     padding: 30px 0 0 0;
 }
+nav ul a {
+    font-size: 1.2em;
+}
 .tabs {
     top: -24px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
-.card .card-title {
-    font-weight: 500;
+.card .card-content .card-title {
+    font-size: 1.8em;
+    line-height: 1em;
 }
 .card .card-subtitle.card-subtitle {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     font-weight: 500;
+}
+.card .card-content {
+    overflow: hidden;
 }
