@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./node_modules/gulp/bin/gulp.js build"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/torendo/torendo.github.io#readme",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
   }
 }
