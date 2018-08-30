@@ -1,0 +1,22 @@
+{
+  "name": "torendo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torendo/torendo.github.io.git"
+  },
+  "author": "Stanislav Proshkin <Stanislav_Proshkin@epam.com> (https://github.com/torendo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torendo/torendo.github.io/issues"
+  },
+  "homepage": "https://github.com/torendo/torendo.github.io#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
