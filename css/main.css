@@ -129,7 +129,7 @@ article {
   html {
     color: rgba(0, 0, 0, 1);
     /*for testing print layout*/
-    background: gray;
+    /*background: gray;*/
   }
   body {
     -webkit-print-color-adjust: exact;
@@ -137,10 +137,10 @@ article {
     flex-direction: column;
     font-size: 8pt;
     /*for testing print layout*/
-    background: white;
-    margin: auto;
-    width: 210mm;
-    height: 297mm;
+    /*background: white;*/
+    /*margin: auto;*/
+    /*width: 210mm;*/
+    height: 296mm;
   }
   main {
     flex-grow: 1;
@@ -149,7 +149,8 @@ article {
     margin-bottom: 0;
   }
   .section-main {
-    padding-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .collection .collection-item {
     line-height: 1.2rem;
@@ -169,14 +170,28 @@ article {
   }
 
   /*paddings*/
+  nav .nav-title {
+    padding: 15px 0 23px 0;
+  }
+  nav .contacts li {
+    padding: 15px 0 0 0;
+  }
+  .tabs {
+    position: absolute;
+    top: 46px;
+  }
   .collection .collection-item {
     padding: 10px 15px;
+  }
+  .card {
+    margin: 5px 0 10px 0;
   }
   .card .card-content {
     padding: 15px;
   }
   .card .card-action {
-    padding: 12px 20px;
+    padding: 8px 15px;
+    margin-top: 5px;
   }
   .card .card-content .divider {
     margin: 10px 0 0;
@@ -186,6 +201,13 @@ article {
   }
   .card .card-content.card-subcontent {
     padding-bottom: 5px;
+  }
+  .page-footer {
+    padding: 0;
+  }
+  .page-footer .footer-copyright {
+    padding: 0;
+    min-height: 36px;
   }
 }
 
