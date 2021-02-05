@@ -35,8 +35,15 @@
     width: 48px !important;
     height: 48px !important;
     line-height: 48px !important;
-    bottom: -24px !important;
   }
+  .card .card-content {
+    padding: 16px;
+  }
+}
+
+.btn-floating {
+  bottom: -20px !important;
+  right: 10px !important;
 }
 
 /*Headings styles*/
@@ -73,6 +80,7 @@ nav .contacts li {
 }
 nav ul a {
   font-size: 1.2em;
+  padding: 0 10px;
 }
 
 /*TABS styles*/
@@ -104,6 +112,9 @@ nav ul a {
 .card .card-content .col:last-child {
   padding-right: 0;
 }
+.col.s12 .card .card-subtitle {
+  margin-bottom: 0;
+}
 
 /*OTHER styles*/
 .btn-floating {
@@ -111,7 +122,9 @@ nav ul a {
   font-weight: 500;
   cursor: default;
 }
-
+.regular-list li {
+  margin-bottom: .3em;
+}
 .regular-list li:before {
   content: '•';
   font-size: .8em;
@@ -121,5 +134,15 @@ nav ul a {
 }
 
 .page-footer {
-  padding: 0 0 12px 0;
+  padding: 0;
+}
+.page-footer .footer-copyright {
+  min-height: 40px;
+}
+
+.row-main .aside {
+  padding-left: 0;
+}
+.row-main .main {
+  padding: 0;
 }
