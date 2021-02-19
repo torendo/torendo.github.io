@@ -9065,3 +9065,255 @@ input[type=range]::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+
+/*Layout grid*/
+.row .col.s2 {
+  width: 20%;
+}
+.row .col.s10 {
+  width: 80%;
+}
+
+/*Collection*/
+.collection .collection-item {
+  padding: 14px 20px;
+}
+
+/*Headings styles*/
+h1, h2, h3, h4,
+.nav-title, .card-title {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h1, h2, h3 {
+  line-height: inherit;
+  margin: 3px 0 0 0;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 1.8em;
+}
+h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 1.5em;
+}
+
+/*NAV styles*/
+nav {
+  line-height: normal;
+}
+nav .nav-title {
+  padding: 30px 0 5px 0;
+  font-size: 3.5em;
+}
+nav .nav-subtitle {
+  padding-left: 1em;
+  font-size: 1.5em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*TABS styles*/
+.tabs {
+  letter-spacing: 1px;
+  white-space: normal;
+  overflow: visible;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabs .tab {
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex: none;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background-color: rgba(0,0,0,.1);
+}
+
+/*CARD styles*/
+.card .card-content {
+  overflow: hidden;
+}
+.card .card-content .divider {
+  margin: 15px 0 5px;
+}
+.card .card-content {
+  padding-bottom: 10px;
+}
+.card .card-content.card-subcontent {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+.card .card-action {
+  margin-top: 10px;
+}
+.card .card-content p {
+  margin-bottom: .5em;
+}
+.card .card-content .card-title {
+  font-size: 1.8em;
+  line-height: 1em;
+}
+.card .card-content .col:first-child {
+  padding-left: 0;
+}
+.card .card-content .col:last-child {
+  padding-right: 0;
+}
+.card .card-subtitle.card-subtitle {
+  font-weight: 500;
+}
+
+.icons {
+  display: flex;
+  margin-top: 25px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: center center;
+  opacity: .75;
+}
+.icon-js {
+  background-color: #F7DF1E;
+  background-image: url("./images/js.svg");
+  background-position: top left;
+  background-size: 45px;
+}
+.icon-polymer {
+  background-color: #d2d2d2;
+  background-image: url("./images/polymer.svg");
+  background-size: 40px;
+}
+.icon-react {
+  background-color: #20232A;
+  background-image: url("./images/react.svg");
+}
+.icon-mobx {
+  background-image: url("./images/mobx.svg");
+}
+
+.block-name {
+  text-align: right;
+  font-weight: 500;
+  opacity: .6;
+}
+
+/*OTHER styles*/
+.btn-floating {
+  font-size: 2em;
+  font-weight: 500;
+  cursor: default;
+}
+.regular-list li {
+  margin-bottom: .25em;
+}
+.regular-list li:before {
+  content: '•';
+  font-size: .8em;
+  color: #888;
+  position: absolute;
+  margin-left: -.8em;
+}
+
+article {
+  padding: 0 !important;
+}
+
+.page-footer {
+  padding: 0 0 12px 0;
+}
+
+@media print {
+  html {
+    color: rgba(0, 0, 0, 1);
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    display: flex;
+    flex-direction: column;
+    font-size: 8pt;
+  }
+  main {
+    flex-grow: 1;
+  }
+  .row-main {
+    margin-bottom: 0;
+  }
+  .section-main {
+    padding-top: 8px;
+    padding-bottom: 5px;
+  }
+  .collection .collection-item {
+    line-height: 1.2rem;
+  }
+  .btn-floating {
+    width: 48px !important;
+    height: 48px !important;
+    line-height: 48px !important;
+    bottom: -24px !important;
+  }
+
+  .row .col.s2 {
+    width: 18%;
+  }
+  .row .col.s10 {
+    width: 82%;
+  }
+
+  /*paddings*/
+  nav .nav-title {
+    padding: 27px 0 7px 0;
+  }
+  .icons {
+    margin-top: 15px;
+  }
+  .icon {
+    transform: scale(.6);
+    margin: 0;
+  }
+  .collection .collection-item {
+    padding: 7px 15px;
+  }
+  .card {
+    margin: 5px 0 10px 0;
+  }
+  .card .card-content {
+    padding: 10px 14px 5px 14px;
+  }
+  .card .card-action {
+    padding: 8px 15px;
+    margin-top: 5px;
+  }
+  .card .card-content.card-subcontent {
+    padding-bottom: 5px;
+  }
+  .card .card-content .divider {
+    margin: 7px 0 0;
+  }
+  .page-footer {
+    padding: 0;
+  }
+  .page-footer .footer-copyright {
+    padding: 0;
+    min-height: 30px;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
