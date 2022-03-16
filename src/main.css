@@ -133,6 +133,12 @@ nav .nav-subtitle {
   background-position: top left;
   background-size: 45px;
 }
+.icon-ts {
+  background-color: #007ACC;
+  background-image: url("./images/typescript.svg");
+  background-position: top left;
+  background-size: 45px;
+}
 .icon-polymer {
   background-color: #d2d2d2;
   background-image: url("./images/polymer.svg");
@@ -215,6 +221,9 @@ article {
   }
 
   /*paddings*/
+  .container {
+    width: 95%;
+  }
   nav .nav-title {
     padding: 27px 0 7px 0;
   }
